@@ -222,6 +222,10 @@ img {
   content: "\f09e";
 }
 
+.fa-rss-square:before {
+  content: "\f143";
+}
+
 .fa-twitter:before {
   content: "\f099";
 } /*!
