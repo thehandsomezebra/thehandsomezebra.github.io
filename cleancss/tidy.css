@@ -216,6 +216,12 @@ img {
 .fa-linkedin:before {
   content: "\f08c";
 }
+
+.fa-feed:before,
+.fa-rss:before {
+  content: "\f09e";
+}
+
 .fa-twitter:before {
   content: "\f099";
 } /*!
