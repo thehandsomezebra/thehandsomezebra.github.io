@@ -186,3 +186,6 @@ img {
     width: 40%;
   }
 }
+.fa-rss:before {
+  content: "B";
+}
