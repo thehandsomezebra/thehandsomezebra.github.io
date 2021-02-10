@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/handsomezebra
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://stephaniefrantz.com
+  * I am handsomezebra (https://keybase.io/handsomezebra) on keybase.
+  * I have a public key ASDa353NiALicQehtHMAoMl16UZb8VsdBjjTq_6h73zzHAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120dadf9dcd8802e27107a1b47300a0c975e9465bf15b1d0638d3abfea1ef7cf31c0a",
+      "host": "keybase.io",
+      "kid": "0120dadf9dcd8802e27107a1b47300a0c975e9465bf15b1d0638d3abfea1ef7cf31c0a",
+      "uid": "c3c5ca1977e6bef34c243b02d4705419",
+      "username": "handsomezebra"
+    },
+    "merkle_root": {
+      "ctime": 1612919041,
+      "hash": "6d520b721e0f3707b3b37c065170ba28b8f65231d61af17ee33e6ee9721d38fa672436762e4558528316ff69af4ccc5d7c6897f8a46d0392f986bdc55da39fe3",
+      "hash_meta": "9d71865a919d9ed62d101237af3441a111f79694e53171c22d1c831d2a3df346",
+      "seqno": 19064889
+    },
+    "service": {
+      "entropy": "VlXibYkj4uHDMJl0yuMeQn68",
+      "hostname": "stephaniefrantz.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.6.0"
+  },
+  "ctime": 1612919083,
+  "expire_in": 504576000,
+  "prev": "a09865f560641959ec6dad5aacba64a59b4cfba7cc92403a3a444fff3a8ddef9",
+  "seqno": 17,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg2t+dzYgC4nEHobRzAKDJdelGW/FbHQY406v+oe988xwKp3BheWxvYWTESpcCEcQgoJhl9WBkGVnsba1arLpkpZtM+6fMkkA6OkRP/zqN3vnEIH8XIkCdSsmFW9bV3eEIobp5PbJuLj2kodLXjssoxY6/AgHCo3NpZ8RAHkOnPCNVSi2cbXmoj38jecvyQudi8WX6ZzDq8lDc6Yy/r0FX/SK0HN6wbbTr7rtjBO+AqmClopIbdHcLiEIJA6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIM9th6fMKmvPiOVzMt5KRvxCxTF8lkGnpsoh1Qcap0ASo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/handsomezebra
+
+==================================================================
