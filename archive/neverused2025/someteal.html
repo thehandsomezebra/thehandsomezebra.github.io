@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stephanie Frantz | Lead DevOps Engineer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        /* -- Custom Color Palette -- */
+        :root {
+            --custom-black: #100e18;
+            --custom-gray: #1e1e26;
+            --custom-teal: #0bceaf;
+            --custom-teal-hover: #0b927c;
+            --custom-border: #2a2a33; /* A slightly lighter gray for borders */
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--custom-black);
+        }
+        .bg-custom-gray { background-color: var(--custom-gray); }
+        .bg-custom-black { background-color: var(--custom-black); }
+        .text-custom-teal { color: var(--custom-teal); }
+        .bg-custom-teal { background-color: var(--custom-teal); }
+        .border-custom { border-color: var(--custom-border); }
+        
+        /* Updated static button hover effect */
+        .btn-hover:hover {
+            background-color: var(--custom-teal-hover);
+            color: var(--custom-black); /* Use your custom black for text on hover */
+        }
+
+        /* Scroll down arrow animation */
+        .scroll-down {
+            animation: bounce 2s infinite;
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-15px);
+            }
+            60% {
+                transform: translateY(-8px);
+            }
+        }
+    </style>
+</head>
+<body class="text-white antialiased">
+
+    <!-- Main wrapper with padding on desktop to show black background -->
+    <div class="lg:p-8">
+        <!-- Gray bounding box -->
+        <div class="bg-custom-gray lg:p-4">
+            <!-- Flex container for the two-column layout on desktop -->
+            <div class="flex flex-col lg:flex-row lg:gap-4">
+
+                <!-- Card 1: Intro Section (Full screen on mobile) -->
+                <div id="intro-card" class="bg-custom-black min-h-screen flex flex-col items-center justify-center text-center p-6 lg:w-1/2 lg:min-h-0 lg:h-auto relative">
+                    
+                    <div class="w-full">
+                        <!-- Profile Image -->
+                        <img src="https://placehold.co/150x150/0bceaf/100e18?text=SF" 
+                             alt="Illustration of Stephanie Frantz" 
+                             class="w-32 h-32 md:w-40 md:h-40 mx-auto mb-6 border-4 border-custom shadow-lg">
+                        
+                        <!-- Header -->
+                        <header class="mb-4">
+                            <h1 class="text-4xl md:text-5xl font-black tracking-widest uppercase">Stephanie Frantz</h1>
+                            <p class="text-custom-teal text-lg md:text-xl mt-2">Lead DevOps Engineer</p>
+                        </header>
+
+                        <!-- Bio -->
+                        <p class="text-gray-300 max-w-sm mx-auto text-lg leading-relaxed mb-8">
+                            I'm a developer, artist, and creative problem-solver obsessed with finding ways to do things better, faster, and more efficiently.
+                        </p>
+
+                        <!-- Social Links -->
+                        <div class="flex justify-center space-x-5">
+                            <a href="#github-social" title="GitHub" class="text-gray-400 hover:text-custom-teal transition-colors duration-300">
+                                <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.165 6.839 9.49.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.031-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.378.203 2.398.1 2.651.64.7 1.03 1.595 1.03 2.688 0 3.848-2.338 4.695-4.566 4.943.359.308.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.001 10.001 0 0022 12c0-5.523-4.477-10-10-10z" clip-rule="evenodd"/></svg>
+                            </a>
+                            <a href="#mastodon" title="Mastodon" class="text-gray-400 hover:text-custom-teal transition-colors duration-300">
+                                <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M23.193 7.879c0-5.206-3.411-6.732-3.411-6.732C18.064.358 15.109 0 12.004 0h-.009C8.891 0 5.936.358 4.218 1.147c0 0-3.411 1.526-3.411 6.732 0 1.36.064 3.168.186 5.342.32 5.613 3.468 6.472 6.472 6.945 1.5.234 2.871.39 4.542.433.013 0 .025.002.038.002.012 0 .025-.002.037-.002 1.671-.043 3.042-.199 4.542-.433 3.004-.473 6.152-1.332 6.472-6.945.122-2.174.186-3.982.186-5.342zm-5.65 6.472h-2.134V8.47h2.02c1.464 0 2.222.716 2.222 2.145s-.758 2.146-2.108 2.146zM9.423 8.47H7.39v5.882h2.033V8.47zm-4.466 0H2.924v5.882h2.033V8.47zM17.58 8.47h-2.28v5.882h2.28c2.656 0 4.319-1.535 4.319-4.33S20.235 8.47 17.58 8.47z"/></svg>
+                            </a>
+                            <a href="#linkedin" title="LinkedIn" class="text-gray-400 hover:text-custom-teal transition-colors duration-300">
+                                <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                            </a>
+                            <a href="#blog" title="Blog" class="text-gray-400 hover:text-custom-teal transition-colors duration-300">
+                                <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg>
+                            </a>
+                             <a href="#devto" title="Dev.to" class="text-gray-400 hover:text-custom-teal transition-colors duration-300">
+                                <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M7.173 3.654h11.23a1.826 1.826 0 011.827 1.826v13.03a1.826 1.826 0 01-1.826 1.826H7.172a1.826 1.826 0 01-1.827-1.826V5.48A1.826 1.826 0 017.172 3.654zM16.27 12.43c.17-.414.249-.89.249-1.425 0-.96-.342-1.782-.99-2.427-.64-.636-1.453-.96-2.428-.96H9.84v8.28h2.32v-2.9h.24c.32 0 .6.03.84.09.24.06.48.15.69.27.21.12.39.27.54.45.15.18.27.39.36.63.09.24.12.51.12.78 0 .42-.06.81-.18 1.17-.12.36-.27.66-.45.9-.18.24-.39.42-.63.54-.24.12-.51.18-.78.18h-3.3v1.02H16.5v-1.02h-.54c.33-.48.495-1.02.495-1.62 0-.45-.06-.87-.18-1.26zM11.22 8.37h1.41c.42 0 .75.12.99.36.24.24.36.57.36.96s-.12.72-.36.96c-.24.24-.57.36-.99.36h-1.41V8.37z"/></svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Scroll Down Hint for mobile only -->
+                    <a href="#content-card" class="lg:hidden absolute bottom-10 text-gray-400 scroll-down">
+                        <span class="text-sm uppercase tracking-widest">More</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mx-auto mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </a>
+                </div>
+                
+                <!-- Card 2: Content Section -->
+                <div id="content-card" class="bg-custom-black lg:w-1/2 flex items-center">
+                    <div class="w-full text-center p-6 lg:p-12">
+                        <!-- Main Call to Action -->
+                        <section class="mb-12">
+                            <h2 class="text-3xl font-bold uppercase tracking-widest mb-6">Portfolio & Links</h2>
+                            <a href="#resume" class="bg-custom-teal text-white font-bold py-4 px-10 inline-block transition duration-300 ease-in-out btn-hover text-lg uppercase tracking-wider">
+                                View Full Resume
+                            </a>
+                        </section>
+
+                        <!-- Link Sections -->
+                        <div class="space-y-10 max-w-md mx-auto">
+                            <!-- Developer Links -->
+                            <div>
+                                <h3 class="text-2xl font-bold uppercase tracking-widest mb-4">Developer</h3>
+                                <div class="space-y-4">
+                                    <a href="#github" class="block bg-custom-gray border-2 border-custom font-semibold py-4 px-6 transition duration-300 ease-in-out btn-hover">Github</a>
+                                    <a href="#devto-posts" class="block bg-custom-gray border-2 border-custom font-semibold py-4 px-6 transition duration-300 ease-in-out btn-hover">Dev.to Posts</a>
+                                </div>
+                            </div>
+
+                            <!-- Artist Links -->
+                            <div>
+                                <h3 class="text-2xl font-bold uppercase tracking-widest mb-4">Artist</h3>
+                                <div class="space-y-4">
+                                    <a href="#etsy" class="block bg-custom-gray border-2 border-custom font-semibold py-4 px-6 transition duration-300 ease-in-out btn-hover">Etsy [Printable Journal Designs]</a>
+                                    <a href="#redbubble" class="block bg-custom-gray border-2 border-custom font-semibold py-4 px-6 transition duration-300 ease-in-out btn-hover">RedBubble [T-Shirts, Stickers and More!]</a>
+                                    <a href="#amazon" class="block bg-custom-gray border-2 border-custom font-semibold py-4 px-6 transition duration-300 ease-in-out btn-hover">Amazon [T-Shirts Eligible for Amazon Prime]</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Footer -->
+                        <footer class="border-t border-custom mt-20 pt-8">
+                            <p class="text-gray-500 text-sm">&copy; 2024 Stephanie Frantz. All rights reserved.</p>
+                        </footer>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
